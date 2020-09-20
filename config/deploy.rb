@@ -1,6 +1,9 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.14.1"
 
+require "capistrano-rbenv"
+set :rbenv_ruby_version, "2.5.1-p57"
+
 set :application, "chenji0"
 set :repo_url, "git@github.com:LYHuang333/chenji0.git"
 
